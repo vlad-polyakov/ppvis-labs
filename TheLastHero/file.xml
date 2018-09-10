@@ -1,0 +1,23 @@
+
+<questions>
+  <question>
+    <name>
+     you are buster?
+    </name>
+    <first>yes</first>
+    <second>absolutely yes</second>
+    <third>fuck you</third>
+    <fourth>i love world of tanks</fourth>
+    <correct>yes</correct>
+  </question>
+  <question>
+    <name>
+      kek or lol?
+    </name>
+    <first>kek</first>
+    <second>lol</second>
+    <third>lol kek cheburek</third>
+    <fourth>i love world of tanks</fourth>
+    <correct>kek</correct>
+  </question>
+</questions>
