@@ -10,7 +10,9 @@ public class LoadQuestion extends DefaultHandler {
     enum Element {
         questions, question, name, first, second, third, fourth, correct;
     }
+
     private ObservableList<Question> studentsList;
+    ObservableList<ObservableList<Question>> questionsWitlLevels;
     private ObservableList<String> answers;
     private Question question;
     private Element thisElem;
@@ -52,6 +54,7 @@ public class LoadQuestion extends DefaultHandler {
 
         if (qName.equals("questions")) {
             studentsList = FXCollections.observableArrayList();
+            questionsWitlLevels = FXCollections.observableArrayList();
             thisElem = Element.questions;
             return;
         }
@@ -99,7 +102,8 @@ public class LoadQuestion extends DefaultHandler {
             return;
         }
     }
-    public ObservableList getList(){
+
+    public ObservableList getList() {
         return studentsList;
     }
 }

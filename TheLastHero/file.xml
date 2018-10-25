@@ -2,22 +2,32 @@
 <questions>
   <question>
     <name>
-     you are buster?
+     you are student?
     </name>
     <first>yes</first>
     <second>absolutely yes</second>
-    <third>fuck you</third>
+    <third>no</third>
     <fourth>i love world of tanks</fourth>
     <correct>yes</correct>
   </question>
   <question>
     <name>
-      kek or lol?
+      apple or android?
     </name>
-    <first>kek</first>
-    <second>lol</second>
-    <third>lol kek cheburek</third>
-    <fourth>i love world of tanks</fourth>
-    <correct>kek</correct>
+    <first>1</first>
+    <second>2</second>
+    <third>12</third>
+    <fourth>12345</fourth>
+    <correct>1</correct>
+  </question>
+  <question>
+    <name>
+      heroes 5 or heroes 3?
+    </name>
+    <first>heroes 5</first>
+    <second>heroes 3</second>
+    <third>nothing</third>
+    <fourth>both</fourth>
+    <correct>both</correct>
   </question>
 </questions>

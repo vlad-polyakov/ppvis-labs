@@ -6,19 +6,10 @@ public class Question {
     private String question;
     private ObservableList<String> answers;
     private String correctAnswer;
-    private int questionNumber;
 
 
     public String getCorrectAnswer() {
         return correctAnswer;
-    }
-
-    public int getQuestionNumber() {
-        return questionNumber;
-    }
-
-    public void setQuestionNumber(int questionNumber) {
-        this.questionNumber = questionNumber;
     }
 
     public String getQuestion() {

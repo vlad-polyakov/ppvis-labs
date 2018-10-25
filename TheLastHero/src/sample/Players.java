@@ -2,32 +2,18 @@ package sample;
 
 import javafx.scene.shape.Rectangle;
 
+
 public class Players {
-    private Rectangle[] players;
-    private int playersNumber;
-    private int playersAnswer;
+    private Rectangle rectangle;
 
-    public int getPlayersAnswer() {
-        return playersAnswer;
+
+    public Rectangle getRectangle() {
+        return rectangle;
     }
 
-    public void setPlayersAnswer(int playersAnswer) {
-        this.playersAnswer = playersAnswer;
+    public void setRectangle(Rectangle rectangle) {
+        this.rectangle = rectangle;
     }
 
-    public void setPlayers(Rectangle[] players) {
-        this.players = players;
-    }
 
-    public int getPlayersNumber() {
-        return playersNumber;
-    }
-
-    public void setPlayersNumber(int playersNumber) {
-        this.playersNumber = playersNumber;
-    }
-
-    public Rectangle[] getPlayers() {
-        return players;
-    }
 }
